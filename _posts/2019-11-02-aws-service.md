@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS의 대표적인 서비스 소개1"
+title:  "AWS의 대표적인 서비스 소개"
 author: 마창수
 categories: [ aws ]
 image: assets/images/11.jpg
@@ -8,20 +8,36 @@ featured: true
 hidden: false
 ---
 
-## 첫 블로그 포스트 입니다.
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+# Amazon ELB (Elastic Load Balancer)
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+로드발란서
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+# Amazon Route 53
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+DNS 서비스
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+# Amazon S3
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+저장소
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+# Amazon Shield
 
-지킬은 심플한 정적 사이트 생성기 입니다.
+DDos 방지를 위한 소프트웨어로 DDos 공격이 발생하면 영향도를 감소시켜주는 서비스이다.
+
+## (1) AWS Shield Standard
+
+Automatic protection available for all AWS customer at no additional charge
+
+## (2) AWS Shield Advanced
+
+Paid service for higher level of protection features, and benefits
+24 X 365 contact to customer support team.
+
+## Benefit
+
+- cost efficient, Simless Integration and deployment, Customizable protection
+Build-in protection against DDos attacks
+Access to tools, services and experties to help you protect your AWS applications
+
+# Amazon Inspector
