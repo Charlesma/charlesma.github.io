@@ -122,7 +122,10 @@ hidden: false
 
 ## Amazon ELB (Elastic Load Balancer)
 
-로드발란서
+## Amazon Trusted Advisor
+
+비용 계산 도구
+
 
 # Amazon Route 53
 
