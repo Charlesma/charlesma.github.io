@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-02T20:43:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Charles Awesome Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">AWS의 대표적인 서비스 소개</title><link href="http://localhost:4000/aws/2019/11/02/aws-service.html" rel="alternate" type="text/html" title="AWS의 대표적인 서비스 소개" /><published>2019-11-02T00:00:00+09:00</published><updated>2019-11-02T00:00:00+09:00</updated><id>http://localhost:4000/aws/2019/11/02/aws-service</id><content type="html" xml:base="http://localhost:4000/aws/2019/11/02/aws-service.html">&lt;h1 id=&quot;computing&quot;&gt;Computing&lt;/h1&gt;
+
+&lt;p&gt;컴퓨터 자원&lt;/p&gt;
+
+&lt;h3 id=&quot;amazon-ec2-elastic-compute-cloud&quot;&gt;Amazon EC2 (Elastic Compute Cloud)&lt;/h3&gt;
+
+&lt;p&gt;용량 조정이 가능한 컴퓨터 자원을 제공하는 서비스이다.
+컴퓨터 자원은 운영체제를 설치할 수 있는 저장공간과 가상 CPU를 의미한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;amazon-lightsail&quot;&gt;Amazon Lightsail&lt;/h2&gt;
+
+&lt;h2 id=&quot;amqazon-ecr-elastic-container-registry&quot;&gt;Amqazon ECR (Elastic Container Registry)&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-ecs-elastic-container-service&quot;&gt;Amazon ECS (Elastic Container Service)&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-eks-elastic-container-service-for-kubernetes&quot;&gt;Amazon EKS (Elastic Container Service for Kubernetes)&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-lamda&quot;&gt;AWS Lamda&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-batch&quot;&gt;AWS Batch&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-elastic-beanstalk&quot;&gt;AWS Elastic Beanstalk&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-serverless-application-repository&quot;&gt;AWS Serverless Application Repository&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-serverless-application-model&quot;&gt;AWS Serverless Application Model&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;저장-공간-stroage&quot;&gt;저장 공간 (Stroage)&lt;/h1&gt;
+
+&lt;h2 id=&quot;amazon-s3-simple-storage-service&quot;&gt;Amazon S3 (Simple Storage Service)&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-efs-elastic-file-system&quot;&gt;Amazon EFS (Elastic File System)&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-fsx&quot;&gt;Amazon FSx&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-s3-glacier&quot;&gt;Amazon S3 Glacier&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-storage-gateway&quot;&gt;Amazon Storage Gateway&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-backup&quot;&gt;AWS Backup&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-ebs-elastic-block-storage&quot;&gt;Amazon EBS (Elastic Block Storage)&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-snowball&quot;&gt;AWS Snowball&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;database&quot;&gt;Database&lt;/h1&gt;
+
+&lt;h2 id=&quot;amazon-rds-relational-database-service&quot;&gt;Amazon RDS (Relational Database Service)&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-dynamodb&quot;&gt;Amazon DynamoDB&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-elasticcache&quot;&gt;Amazon ElasticCache&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-neptune&quot;&gt;Amazon Neptune&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-redshift&quot;&gt;Amazon Redshift&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-documentdb&quot;&gt;Amazon DocumentDB&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;devope&quot;&gt;DevOpe&lt;/h1&gt;
+
+&lt;h2 id=&quot;aws-codestar&quot;&gt;AWS CodeStar&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-codecommit&quot;&gt;AWS CodeCommit&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-codebuild&quot;&gt;AWS CodeBuild&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-codedeploy&quot;&gt;AWS CodeDeploy&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-codepipeline&quot;&gt;AWS CodePipeline&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-cloud9&quot;&gt;AWS Cloud9&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-x-ray&quot;&gt;AWS X-Ray&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;security-and-authorization&quot;&gt;Security and Authorization&lt;/h1&gt;
+
+&lt;h2 id=&quot;aws-iam-identity-and-access-management&quot;&gt;AWS IAM (Identity and Access Management)&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-ram-resource-access-manager&quot;&gt;AWS RAM (Resource Access Manager)&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-cognito&quot;&gt;Amazon Cognito&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-secrets-manager&quot;&gt;AWS Secrets Manager&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-guardduty&quot;&gt;Amazon GuardDuty&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-inspector&quot;&gt;Amazon Inspector&lt;/h2&gt;
+
+&lt;h2 id=&quot;amazon-macie&quot;&gt;Amazon Macie&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-single-sign-on&quot;&gt;AWS Single Sign-on&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-certificate-manager-acm&quot;&gt;AWS Certificate Manager (ACM)&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-kms-key-management-service&quot;&gt;AWS KMS (Key Management Service)&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-directory-service&quot;&gt;AWS Directory Service&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-waf&quot;&gt;AWS WAF&lt;/h2&gt;
+
+&lt;h2 id=&quot;aws-shield&quot;&gt;AWS Shield&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;기타&quot;&gt;기타&lt;/h1&gt;
+
+&lt;h2 id=&quot;amazon-elb-elastic-load-balancer&quot;&gt;Amazon ELB (Elastic Load Balancer)&lt;/h2&gt;
+
+&lt;p&gt;로드발란서&lt;/p&gt;
+
+&lt;h1 id=&quot;amazon-route-53&quot;&gt;Amazon Route 53&lt;/h1&gt;
+
+&lt;p&gt;DNS 서비스&lt;/p&gt;
+
+&lt;h1 id=&quot;amazon-shield&quot;&gt;Amazon Shield&lt;/h1&gt;
+
+&lt;p&gt;DDos 방지를 위한 소프트웨어로 DDos 공격이 발생하면 영향도를 감소시켜주는 서비스이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-aws-shield-standard&quot;&gt;(1) AWS Shield Standard&lt;/h2&gt;
+
+&lt;p&gt;Automatic protection available for all AWS customer at no additional charge&lt;/p&gt;
+
+&lt;h2 id=&quot;2-aws-shield-advanced&quot;&gt;(2) AWS Shield Advanced&lt;/h2&gt;
+
+&lt;p&gt;Paid service for higher level of protection features, and benefits
+24 X 365 contact to customer support team.&lt;/p&gt;
+
+&lt;h2 id=&quot;benefit&quot;&gt;Benefit&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cost efficient, Simless Integration and deployment, Customizable protection
+Build-in protection against DDos attacks
+Access to tools, services and experties to help you protect your AWS applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;amazon-inspector-1&quot;&gt;Amazon Inspector&lt;/h1&gt;
+
+&lt;p&gt;[참조] https://waspro.tistory.com/457&lt;/p&gt;</content><author><name>마창수</name></author><summary type="html">Computing</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/11.jpg" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/11/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-01T19:02:01+09:00</published><updated>2019-11-01T19:02:01+09:00</updated><id>http://localhost:4000/jekyll/update/2019/11/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/11/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
