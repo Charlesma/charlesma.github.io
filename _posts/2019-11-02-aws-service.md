@@ -8,8 +8,119 @@ featured: true
 hidden: false
 ---
 
+# Computing
 
-# Amazon ELB (Elastic Load Balancer)
+컴퓨터 자원
+
+### Amazon EC2 (Elastic Compute Cloud)
+
+용량 조정이 가능한 컴퓨터 자원을 제공하는 서비스이다.
+컴퓨터 자원은 운영체제를 설치할 수 있는 저장공간과 가상 CPU를 의미한다.
+
+## Amazon Lightsail
+
+## Amqazon ECR (Elastic Container Registry)
+
+## Amazon ECS (Elastic Container Service)
+
+## Amazon EKS (Elastic Container Service for Kubernetes)
+
+
+## AWS Lamda
+
+## AWS Batch
+
+## AWS Elastic Beanstalk
+
+## AWS Serverless Application Repository
+
+## AWS Serverless Application Model
+
+---
+# 저장 공간 (Stroage)
+
+## Amazon S3 (Simple Storage Service)
+
+## Amazon EFS (Elastic File System)
+
+## Amazon FSx
+
+## Amazon S3 Glacier
+
+## Amazon Storage Gateway
+
+## AWS Backup
+
+## Amazon EBS (Elastic Block Storage)
+
+## AWS Snowball
+
+---
+# Database
+
+## Amazon RDS (Relational Database Service)
+
+## Amazon DynamoDB
+
+## Amazon ElasticCache
+
+## Amazon Neptune
+
+## Amazon Redshift
+
+## Amazon DocumentDB
+
+
+---
+# DevOpe
+
+## AWS CodeStar
+
+## AWS CodeCommit
+
+## AWS CodeBuild
+
+## AWS CodeDeploy
+
+## AWS CodePipeline
+
+## AWS Cloud9
+
+## AWS X-Ray
+
+---
+# Security and Authorization
+
+## AWS IAM (Identity and Access Management)
+
+## AWS RAM (Resource Access Manager)
+
+## Amazon Cognito
+
+## AWS Secrets Manager
+
+## Amazon GuardDuty
+
+## Amazon Inspector
+
+## Amazon Macie
+
+## AWS Single Sign-on
+
+## AWS Certificate Manager (ACM)
+
+## AWS KMS (Key Management Service)
+
+## AWS Directory Service
+
+## AWS WAF
+
+## AWS Shield
+
+---
+# 기타
+
+## Amazon ELB (Elastic Load Balancer)
 
 로드발란서
 
@@ -17,9 +128,6 @@ hidden: false
 
 DNS 서비스
 
-# Amazon S3
-
-저장소
 
 # Amazon Shield
 
@@ -41,3 +149,6 @@ Build-in protection against DDos attacks
 Access to tools, services and experties to help you protect your AWS applications
 
 # Amazon Inspector
+
+
+[참조] https://waspro.tistory.com/457
