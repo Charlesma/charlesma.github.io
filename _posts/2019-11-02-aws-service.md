@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "AWS의 대표적인 서비스 소개"
 author: 마창수
 categories: [ aws ]
