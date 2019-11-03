@@ -10,8 +10,6 @@ hidden: false
 
 # Computing
 
-컴퓨터 자원
-
 ### Amazon EC2 (Elastic Compute Cloud)
 
 * 설명
@@ -33,19 +31,24 @@ hidden: false
     * Reserved : 1년 혹은 3년 약정, 항상 사용하는 안정된 서버 자원을 위한 요
     * Spot : 남은 자원에 대한 경매 방으로 더 높은 가격으로 입찰할 경우 바로 양도될 수 있으나 80~90% 저렴
 
-## Amazon Lightsail
+### Amazon Lightsail
 
-## Amqazon ECR (Elastic Container Registry)
 
-## Amazon ECS (Elastic Container Service)
+### Amqazon ECR (Elastic Container Registry)
 
-## Amazon EKS (Elastic Container Service for Kubernetes)
+
+### Amazon ECS (Elastic Container Service)
+
+
+### Amazon EKS (Elastic Container Service for Kubernetes)
+
 
 
 ---
 # Storage and Contents Distribute
 
-## Amazon S3
+
+### Amazon S3
 
 * 개요
     * 무제한 객체 스토리지
@@ -58,108 +61,127 @@ hidden: false
     * 정적웹사이트호스팅가능
 
 
-## AWS Lamda
+### AWS Lamda
 
-## AWS Batch
 
-## AWS Elastic Beanstalk
+### AWS Batch
 
-## AWS Serverless Application Repository
 
-## AWS Serverless Application Model
+### AWS Elastic Beanstalk
 
----
+
+### AWS Serverless Application Repository
+
+
+### AWS Serverless Application Model
+
+
 # 저장 공간 (Stroage)
 
-## Amazon EFS (Elastic File System)
+### Amazon EFS (Elastic File System)
 
-## Amazon FSx
 
-## Amazon S3 Glacier
+### Amazon FSx
 
-## Amazon Storage Gateway
 
-## AWS Backup
+### Amazon S3 Glacier
 
-## Amazon EBS (Elastic Block Storage)
 
-## AWS Snowball
+### Amazon Storage Gateway
+
+
+### AWS Backup
+
+
+### Amazon EBS (Elastic Block Storage)
+
+
+### AWS Snowball
+
 
 ---
 # Database
 
-## Amazon RDS (Relational Database Service)
+### Amazon RDS (Relational Database Service)
 
-## Amazon DynamoDB
 
-## Amazon ElasticCache
+### Amazon DynamoDB
 
-## Amazon Neptune
 
-## Amazon Redshift
+### Amazon ElasticCache
 
-## Amazon DocumentDB
+
+### Amazon Neptune
+
+
+### Amazon Redshift
+
+
+### Amazon DocumentDB
 
 
 ---
 # Network
 
-## Amazon CloudFront
 
-CDN 서비스
+### Amazon CloudFront
+
+* 개요
+	* CDN 서비스
+
 
 ---
 # DevOpe
 
-## AWS CodeStar
+### AWS CodeStar
 
-## AWS CodeCommit
+### AWS CodeCommit
 
-## AWS CodeBuild
+### AWS CodeBuild
 
-## AWS CodeDeploy
+### AWS CodeDeploy
 
-## AWS CodePipeline
+### AWS CodePipeline
 
-## AWS Cloud9
+### AWS Cloud9
 
-## AWS X-Ray
+### AWS X-Ray
 
 ---
 # Security and Authorization
 
-## AWS IAM (Identity and Access Management)
+### AWS IAM (Identity and Access Management)
 
-## AWS RAM (Resource Access Manager)
+### AWS RAM (Resource Access Manager)
 
-## Amazon Cognito
+### Amazon Cognito
 
-## AWS Secrets Manager
+### AWS Secrets Manager
 
-## Amazon GuardDuty
+### Amazon GuardDuty
 
-## Amazon Inspector
+### Amazon Inspector
 
-## Amazon Macie
+### Amazon Macie
 
-## AWS Single Sign-on
+### AWS Single Sign-on
 
-## AWS Certificate Manager (ACM)
+### AWS Certificate Manager (ACM)
 
-## AWS KMS (Key Management Service)
+### AWS KMS (Key Management Service)
 
-## AWS Directory Service
+### AWS Directory Service
 
-## AWS WAF
+### AWS WAF
 
-## AWS Shield
+### AWS Shield
 
 ---
 # 기타
 
-## Amazon ELB (Elastic Load Balancer)
+### Amazon ELB (Elastic Load Balancer)
 
-## Amazon Trusted Advisor
+### Amazon Trusted Advisor
 
 비용 계산 도구
 
@@ -173,16 +195,16 @@ DNS 서비스
 
 DDos 방지를 위한 소프트웨어로 DDos 공격이 발생하면 영향도를 감소시켜주는 서비스이다.
 
-## (1) AWS Shield Standard
+### (1) AWS Shield Standard
 
 Automatic protection available for all AWS customer at no additional charge
 
-## (2) AWS Shield Advanced
+### (2) AWS Shield Advanced
 
 Paid service for higher level of protection features, and benefits
 24 X 365 contact to customer support team.
 
-## Benefit
+### Benefit
 
 - cost efficient, Simless Integration and deployment, Customizable protection
 Build-in protection against DDos attacks
