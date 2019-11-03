@@ -1,11 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-02T20:43:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Charles Awesome Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">AWS의 대표적인 서비스 소개</title><link href="http://localhost:4000/aws/2019/11/02/aws-service.html" rel="alternate" type="text/html" title="AWS의 대표적인 서비스 소개" /><published>2019-11-02T00:00:00+09:00</published><updated>2019-11-02T00:00:00+09:00</updated><id>http://localhost:4000/aws/2019/11/02/aws-service</id><content type="html" xml:base="http://localhost:4000/aws/2019/11/02/aws-service.html">&lt;h1 id=&quot;computing&quot;&gt;Computing&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-03T10:24:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Charles Awesome Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">AWS의 대표적인 서비스 소개</title><link href="http://localhost:4000/aws/2019/11/02/aws-service.html" rel="alternate" type="text/html" title="AWS의 대표적인 서비스 소개" /><published>2019-11-02T00:00:00+09:00</published><updated>2019-11-02T00:00:00+09:00</updated><id>http://localhost:4000/aws/2019/11/02/aws-service</id><content type="html" xml:base="http://localhost:4000/aws/2019/11/02/aws-service.html">&lt;h1 id=&quot;computing&quot;&gt;Computing&lt;/h1&gt;
 
 &lt;p&gt;컴퓨터 자원&lt;/p&gt;
 
 &lt;h3 id=&quot;amazon-ec2-elastic-compute-cloud&quot;&gt;Amazon EC2 (Elastic Compute Cloud)&lt;/h3&gt;
 
-&lt;p&gt;용량 조정이 가능한 컴퓨터 자원을 제공하는 서비스이다.
-컴퓨터 자원은 운영체제를 설치할 수 있는 저장공간과 가상 CPU를 의미한다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;설명
+    &lt;ul&gt;
+      &lt;li&gt;가상 머신이다.&lt;/li&gt;
+      &lt;li&gt;재구성이 가능한 컴퓨팅 리소스&lt;/li&gt;
+      &lt;li&gt;쉽게 확장/축소되는 컴퓨팅 용량&lt;/li&gt;
+      &lt;li&gt;고객업무’영역에따른다양한인스턴스타입제공&lt;/li&gt;
+      &lt;li&gt;사용한 만큼만 과금 (pay-as-you-go)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;인스턴스 Family
+    &lt;ul&gt;
+      &lt;li&gt;M : 범용, 컴퓨팅, 메모리, 네트워크 리소스의 균형적 사용&lt;/li&gt;
+      &lt;li&gt;C : 컴퓨팅, EC2에서 최고 성능의 프로세서, 성능 대비 저렴한 가격&lt;/li&gt;
+      &lt;li&gt;R : 메모리용, 메모리 용량이 많이 필요한 애플리케이션용&lt;/li&gt;
+      &lt;li&gt;T : 성능 순간 확장, 성능 순간 확장 가능 인스턴스&lt;/li&gt;
+      &lt;li&gt;G / P : GPU 전용, 그래픽 및 일반 목적의 GPU 컴퓨팅 애플리케이션&lt;/li&gt;
+      &lt;li&gt;I : 높은 I/O, SSD 기반의 초고속 인스턴스 스토리지&lt;/li&gt;
+      &lt;li&gt;D : 고밀도 스토리지, 높은 디스크 처리량, 단위당 최소의 가격&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;가격 체계
+    &lt;ul&gt;
+      &lt;li&gt;On-Demand : 약정 없이 사용한 대로 지불, 갑작스런 트레픽이나 예측하기 어려운 경 혹은 신규 서비스&lt;/li&gt;
+      &lt;li&gt;Reserved : 1년 혹은 3년 약정, 항상 사용하는 안정된 서버 자원을 위한 요&lt;/li&gt;
+      &lt;li&gt;Spot : 남은 자원에 대한 경매 방으로 더 높은 가격으로 입찰할 경우 바로 양도될 수 있으나 80~90% 저렴&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;amazon-lightsail&quot;&gt;Amazon Lightsail&lt;/h2&gt;
 
@@ -14,6 +41,29 @@
 &lt;h2 id=&quot;amazon-ecs-elastic-container-service&quot;&gt;Amazon ECS (Elastic Container Service)&lt;/h2&gt;
 
 &lt;h2 id=&quot;amazon-eks-elastic-container-service-for-kubernetes&quot;&gt;Amazon EKS (Elastic Container Service for Kubernetes)&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;storage-and-contents-distribute&quot;&gt;Storage and Contents Distribute&lt;/h1&gt;
+
+&lt;h2 id=&quot;amazon-s3&quot;&gt;Amazon S3&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;개요
+    &lt;ul&gt;
+      &lt;li&gt;무제한 객체 스토리지&lt;/li&gt;
+      &lt;li&gt;이미지, 비디오, 파일, 스냅샷 등&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;특징
+    &lt;ul&gt;
+      &lt;li&gt;객체 기반의 무제한 파일 저장 스토리지&lt;/li&gt;
+      &lt;li&gt;URL을통해손쉽게파일공유가능&lt;/li&gt;
+      &lt;li&gt;99.999999999%의 내구성&lt;/li&gt;
+      &lt;li&gt;사용한만큼만지불(GB당과금)&lt;/li&gt;
+      &lt;li&gt;정적웹사이트호스팅가능&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;aws-lamda&quot;&gt;AWS Lamda&lt;/h2&gt;
 
@@ -27,8 +77,6 @@
 
 &lt;hr /&gt;
 &lt;h1 id=&quot;저장-공간-stroage&quot;&gt;저장 공간 (Stroage)&lt;/h1&gt;
-
-&lt;h2 id=&quot;amazon-s3-simple-storage-service&quot;&gt;Amazon S3 (Simple Storage Service)&lt;/h2&gt;
 
 &lt;h2 id=&quot;amazon-efs-elastic-file-system&quot;&gt;Amazon EFS (Elastic File System)&lt;/h2&gt;
 
@@ -58,6 +106,13 @@
 &lt;h2 id=&quot;amazon-redshift&quot;&gt;Amazon Redshift&lt;/h2&gt;
 
 &lt;h2 id=&quot;amazon-documentdb&quot;&gt;Amazon DocumentDB&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;network&quot;&gt;Network&lt;/h1&gt;
+
+&lt;h2 id=&quot;amazon-cloudfront&quot;&gt;Amazon CloudFront&lt;/h2&gt;
+
+&lt;p&gt;CDN 서비스&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;h1 id=&quot;devope&quot;&gt;DevOpe&lt;/h1&gt;
@@ -110,7 +165,9 @@
 
 &lt;h2 id=&quot;amazon-elb-elastic-load-balancer&quot;&gt;Amazon ELB (Elastic Load Balancer)&lt;/h2&gt;
 
-&lt;p&gt;로드발란서&lt;/p&gt;
+&lt;h2 id=&quot;amazon-trusted-advisor&quot;&gt;Amazon Trusted Advisor&lt;/h2&gt;
+
+&lt;p&gt;비용 계산 도구&lt;/p&gt;
 
 &lt;h1 id=&quot;amazon-route-53&quot;&gt;Amazon Route 53&lt;/h1&gt;
 
@@ -139,20 +196,4 @@ Access to tools, services and experties to help you protect your AWS application
 
 &lt;h1 id=&quot;amazon-inspector-1&quot;&gt;Amazon Inspector&lt;/h1&gt;
 
-&lt;p&gt;[참조] https://waspro.tistory.com/457&lt;/p&gt;</content><author><name>마창수</name></author><summary type="html">Computing</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/11.jpg" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/11/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-01T19:02:01+09:00</published><updated>2019-11-01T19:02:01+09:00</updated><id>http://localhost:4000/jekyll/update/2019/11/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/11/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;[참조] https://waspro.tistory.com/457&lt;/p&gt;</content><author><name>마창수</name></author><summary type="html">Computing</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/11.jpg" /></entry></feed>

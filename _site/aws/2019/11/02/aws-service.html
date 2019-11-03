@@ -53,8 +53,35 @@
 
 <h3 id="amazon-ec2-elastic-compute-cloud">Amazon EC2 (Elastic Compute Cloud)</h3>
 
-<p>용량 조정이 가능한 컴퓨터 자원을 제공하는 서비스이다.
-컴퓨터 자원은 운영체제를 설치할 수 있는 저장공간과 가상 CPU를 의미한다.</p>
+<ul>
+  <li>설명
+    <ul>
+      <li>가상 머신이다.</li>
+      <li>재구성이 가능한 컴퓨팅 리소스</li>
+      <li>쉽게 확장/축소되는 컴퓨팅 용량</li>
+      <li>고객업무’영역에따른다양한인스턴스타입제공</li>
+      <li>사용한 만큼만 과금 (pay-as-you-go)</li>
+    </ul>
+  </li>
+  <li>인스턴스 Family
+    <ul>
+      <li>M : 범용, 컴퓨팅, 메모리, 네트워크 리소스의 균형적 사용</li>
+      <li>C : 컴퓨팅, EC2에서 최고 성능의 프로세서, 성능 대비 저렴한 가격</li>
+      <li>R : 메모리용, 메모리 용량이 많이 필요한 애플리케이션용</li>
+      <li>T : 성능 순간 확장, 성능 순간 확장 가능 인스턴스</li>
+      <li>G / P : GPU 전용, 그래픽 및 일반 목적의 GPU 컴퓨팅 애플리케이션</li>
+      <li>I : 높은 I/O, SSD 기반의 초고속 인스턴스 스토리지</li>
+      <li>D : 고밀도 스토리지, 높은 디스크 처리량, 단위당 최소의 가격</li>
+    </ul>
+  </li>
+  <li>가격 체계
+    <ul>
+      <li>On-Demand : 약정 없이 사용한 대로 지불, 갑작스런 트레픽이나 예측하기 어려운 경 혹은 신규 서비스</li>
+      <li>Reserved : 1년 혹은 3년 약정, 항상 사용하는 안정된 서버 자원을 위한 요</li>
+      <li>Spot : 남은 자원에 대한 경매 방으로 더 높은 가격으로 입찰할 경우 바로 양도될 수 있으나 80~90% 저렴</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="amazon-lightsail">Amazon Lightsail</h2>
 
@@ -63,6 +90,29 @@
 <h2 id="amazon-ecs-elastic-container-service">Amazon ECS (Elastic Container Service)</h2>
 
 <h2 id="amazon-eks-elastic-container-service-for-kubernetes">Amazon EKS (Elastic Container Service for Kubernetes)</h2>
+
+<hr />
+<h1 id="storage-and-contents-distribute">Storage and Contents Distribute</h1>
+
+<h2 id="amazon-s3">Amazon S3</h2>
+
+<ul>
+  <li>개요
+    <ul>
+      <li>무제한 객체 스토리지</li>
+      <li>이미지, 비디오, 파일, 스냅샷 등</li>
+    </ul>
+  </li>
+  <li>특징
+    <ul>
+      <li>객체 기반의 무제한 파일 저장 스토리지</li>
+      <li>URL을통해손쉽게파일공유가능</li>
+      <li>99.999999999%의 내구성</li>
+      <li>사용한만큼만지불(GB당과금)</li>
+      <li>정적웹사이트호스팅가능</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="aws-lamda">AWS Lamda</h2>
 
@@ -76,8 +126,6 @@
 
 <hr />
 <h1 id="저장-공간-stroage">저장 공간 (Stroage)</h1>
-
-<h2 id="amazon-s3-simple-storage-service">Amazon S3 (Simple Storage Service)</h2>
 
 <h2 id="amazon-efs-elastic-file-system">Amazon EFS (Elastic File System)</h2>
 
@@ -107,6 +155,13 @@
 <h2 id="amazon-redshift">Amazon Redshift</h2>
 
 <h2 id="amazon-documentdb">Amazon DocumentDB</h2>
+
+<hr />
+<h1 id="network">Network</h1>
+
+<h2 id="amazon-cloudfront">Amazon CloudFront</h2>
+
+<p>CDN 서비스</p>
 
 <hr />
 <h1 id="devope">DevOpe</h1>
@@ -159,7 +214,9 @@
 
 <h2 id="amazon-elb-elastic-load-balancer">Amazon ELB (Elastic Load Balancer)</h2>
 
-<p>로드발란서</p>
+<h2 id="amazon-trusted-advisor">Amazon Trusted Advisor</h2>
+
+<p>비용 계산 도구</p>
 
 <h1 id="amazon-route-53">Amazon Route 53</h1>
 
